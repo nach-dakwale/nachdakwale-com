@@ -60,7 +60,7 @@ function setupGalleryModal() {
     const galleryImages = Array.from(document.querySelectorAll('.cluster-link')).map((link) => ({
         src: link.dataset.fullSrc,
         description: link.dataset.description,
-        alt: link.querySelector('img')?.alt || 'Portfolio photo'
+        alt: link.querySelector('img')?.alt || 'Project photo'
     }));
 
     let currentIndex = 0;
