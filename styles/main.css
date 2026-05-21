@@ -497,6 +497,10 @@ ul.blog-post-list {
     padding: 0; /* Remove padding from header */
     cursor: pointer; 
     width: 100%; 
+    border: 0;
+    background: transparent;
+    font: inherit;
+    text-align: left;
     /* Removed grid-row */
 }
 
