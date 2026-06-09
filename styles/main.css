@@ -191,67 +191,6 @@ body {
     text-decoration: none; /* Ensure no underline on hover */
 }
 
-/* Toptal Badge */
-.toptal-badge-wrap {
-    margin-top: 1.75rem;
-}
-
-.toptal-badge {
-    --toptal-hex: polygon(50% 0, 100% 24%, 100% 76%, 50% 100%, 0 76%, 0 24%);
-    display: inline-block;
-    background: #25a9ef;
-    padding: 6px;
-    clip-path: var(--toptal-hex);
-    font-family: proxima-nova, Arial, sans-serif;
-}
-
-.toptal-badge-card {
-    width: 200px;
-    padding: 24px 0 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    color: #fff;
-    text-align: center;
-    background: linear-gradient(153deg, #0667ff 18%, #204ecf 40%, #0f256e 80%);
-    clip-path: var(--toptal-hex);
-    box-shadow: 0 28px 50px rgba(6, 30, 96, 0.35);
-}
-
-.toptal-badge-title {
-    margin: 0;
-    font-size: 19px;
-    font-weight: 700;
-    line-height: 1;
-}
-
-.toptal-badge-rule {
-    width: 120px;
-    height: 1px;
-    background: #25a9ef;
-}
-
-.toptal-badge-label {
-    font-size: 16px;
-    opacity: 0.8;
-    margin-bottom: -6px;
-}
-
-.toptal-badge-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4px 20px;
-    border-radius: 6px;
-    background: #296bff;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration-thickness: 0.5px;
-    text-underline-offset: 2px;
-}
-
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     body {
